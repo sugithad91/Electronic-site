@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    
+    <!--tailwind css-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Home</title>
+    
+
+</head>
+<body>
+    <!--top bar-->
+    <div class=" text-center bg-[#1796A5] py-2  max-w-7xl mx-auto text-white">
+        <h5>SUMMER SALE IS BACK! GET UPTO 40% DISCOUNT ON HEADPHONES</h5>
+    </div>
+   <!-- Navbar -->
+    <nav class="relative flex items-center max-w-7xl justify-between mx-auto px-6 py-4 bg-white ">
+  
+            <!-- Hidden Checkbox for Toggle -->
+            <input type="checkbox" id="menu-toggle" class="peer hidden">
+
+            <!-- Hamburger Icon (Label for the checkbox) -->
+            <label for="menu-toggle" class="md:hidden cursor-pointer text-2xl z-50 select-none">
+                <span class="peer-checked:hidden inline">☰</span>
+                <span class="hidden peer-checked:inline">✕</span>
+            </label>
+
+            <!-- Logo -->
+            <div class="flex-shrink-0 md:pl-20">
+                <a href="./index.html"><img src="./Assets/images/logo.png" alt="Logo" ></a>
+            </div>
+
+            <!-- Menu: Controlled by the checkbox state via the 'peer-checked' class -->
+            <ul class="hidden peer-checked:flex absolute top-full left-0 w-full bg-white flex-col items-center gap-5  py-5 border-b shadow-lg md:shadow-none md:border-none md:static md:w-auto md:flex  md:flex-row md:gap-8 text-gray-800 font-medium text-xl z-40">
+                <li class="cursor-pointer hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-[#1796A5] transition-all"><a href="./categories.html">CATEGORIES</a></li>
+                <li class="cursor-pointer hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-[#1796A5] transition-all"><a href="./about.html">ABOUT US</a></li>
+            </ul>
+
+            <!-- Right Section -->
+            <div class="flex items-center gap-4 pr-5">
+                <div class="hidden lg:flex items-center border-3 border-[#1796A5] rounded-full px-4 py-1">
+                <input type="text" placeholder="Search" class="outline-none text-sm text-black w-40 placeholder-black text-xl">
+                </div>
+                <div class="flex gap-4 text-2xl items-center">
+                    <a href=""><img src="./Assets/images/cart-home.png" alt=""></a>
+                    <a href=""><img src="./Assets/images/user-home.png" alt=""></a>
+                
+                </div>
+            </div>
+    </nav>
+
+    <!-- about us-->
+        <section class="relative max-w-7xl mx-auto flex items-center justify-end min-h-screen overflow-hidden">
+            
+            <div class="absolute max-w-xl px-2 py-5 md:ml-25  h-full inset-0 z-0">
+                <img src="./Assets/images/about-us-1.png" 
+                    alt="Electronics Store" 
+                    class="w-full h-full rounded-lg object-cover">
+                
+            </div>
+
+                <!-- Content Card -->
+                    <div class="relative z-10 w-full md:w-3/5 lg:w-1/2 p-5 md:p-5 lg:p-15 bg-[#dbeef2]/50  shadow-2xl mr-0 md:mr-12 lg:mr-20">
+                        <h2 class="text-2xl md:text-3xl font-bold text-gray-900 border-b-4 border-black inline-block pb-1 mb-8 uppercase tracking-widest">
+                        Story
+                        </h2>
+                        
+                        <div class="space-y-6  leading-relaxed text-xl">
+                        <p>
+                            <span class="font-bold">SR TECH</span> is a private limited company that specializes in providing high-quality electronic goods to customers. We have been in business for 1 year and have established ourselves as a leading provider of electronic devices in the Tamilnadu.
+                        </p>
+                        
+                        <p class="italic text-gray-700 pt-4 border-t border-blue-200">
+                            "Your best interests—always at the forefront of our thinking."
+                        </p>
+                    </div>
+           
+        </section>
+
+        <section class="relative w-full min-h-screen max-w-7xl mx-auto  flex items-center justify-center  py-12 px-4">
+    <!-- Background/Side Image Container -->
+    <div class="absolute inset-0 w-full h-full px-2 py-5 max-w-xl md:left-1/2">
+        <img src="./Assets/images/about-us-2.png" alt="Electronic Goods Store" 
+        class="w-full h-full object-cover">
+        <!-- Overlay to ensure text readability on mobile if needed -->
+        <div class="absolute inset-0 bg-black/10 md:bg-transparent"></div>
+    </div>
+
+    <!-- Content Box -->
+    <div class="relative z-10 w-full max-w-6xl mx-auto">
+        <div class="bg-[#dbeef2]/50  p-8 md:p-12 md:max-w-2xl  shadow-xl">
+            <h2 class="text-2xl font-bold uppercase tracking-widest border-b-2 border-gray-800 inline-block mb-6">
+                Mission
+            </h2>
+            
+            <p class="text-gray-800 text-xl leading-relaxed font-medium">
+                Our mission at <span class="font-bold">SR TECH</span> is to provide our customers 
+                with the best possible experience when it comes to buying electronic goods. 
+                We are committed to offering high-quality products, exceptional customer service, 
+                and competitive pricing. Our goal is to be the go-to destination for electronic 
+                devices in the Tamilnadu.
+            </p>
+        </div>
+    </div>
+</section>
+
+   <section class="relative max-w-7xl mx-auto flex items-center justify-end min-h-screen overflow-hidden">
+            
+            <div class="absolute max-w-xl px-2 py-5 md:ml-25  h-full inset-0 z-0">
+                <img src="./Assets/images/about-us-3.png" 
+                    alt="Electronics Store" 
+                    class="w-full h-full rounded-lg object-cover">
+                
+            </div>
+
+                <!-- Content Card -->
+                    <div class="relative z-10 w-full md:w-3/5 lg:w-1/2 p-5 md:p-5 lg:p-15 bg-[#dbeef2]/50  shadow-2xl mr-0 md:mr-12 lg:mr-20">
+                        <h2 class="text-2xl md:text-3xl font-bold text-gray-900 border-b-4 border-black inline-block pb-1 mb-8 uppercase tracking-widest">
+                        Vision
+                        </h2>
+                        
+                        <div class="space-y-6  leading-relaxed text-xl">
+                        <p>
+                             At <span class="font-bold">SR TECH</span>, our vision is to be the most trusted and respected provider of electronic goods in the Tamilnadu. We strive to create a culture of innovation, excellence, and integrity, and to be recognized for our commitment to quality, customer satisfaction, and community involvement. Our goal is to build long-term relationships with our customers, partners, and employees, and to be a catalyst for positive change in the country.
+            </p>
+                        
+                      
+                    </div>
+           
+        </section>
+
+
+
+    
+    <!--Footer Section-->
+<footer class="bg-black text-white py-12 px-6 max-w-7xl mx-auto">
+  <div class="max-w-6xl mx-auto">
+    <!-- Top Section: 3 Columns -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10 border-b-2 border-white pb-10">
+      
+      <!-- Column 1: Discover -->
+      <div class="text-center md:text-left">
+        <h3 class="text-sm  md:text-lg font-bold tracking-widest uppercase mb-4">Discover</h3>
+        <ul class="space-y-2 text-white text-sm md:text-xl">
+          <li><a href="#" >Delivery Terms</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#" >How to Place Order</a></li>
+          <li><a href="#" >Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 2: Continue Shopping -->
+      <div class="text-center md:text-left">
+        <h3 class="text-sm md:text-lg font-bold tracking-widest uppercase mb-4">Continue Shopping</h3>
+        <ul class="space-y-2 text-white text-sm md:text-xl">
+          <li><a href="#" class="hover:text-white">Small Gadgets</a></li>
+          <li><a href="#" class="hover:text-white">Gaming</a></li>
+          <li><a href="#" class="hover:text-white">Smart Watch</a></li>
+          <li><a href="#" class="hover:text-white">Headphones</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Contact Info -->
+      <div class="text-center md:text-left">
+        <h3 class="text-sm md:text-lg font-bold tracking-widest uppercase mb-4">S.T. TECH</h3>
+        <div class=" text-white text-sm md:text-xl space-y-3">
+          <p>No.5, South Fairlands,<br> Yercaud Main Road, Salem,<br> Tamilnadu</p>
+          <p class="font-medium">+91 90000 90101</p>
+          <p class="font-medium">+91 92102 54879</p>
+          <p>info@srtech.com</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Section: Socials & Copyright -->
+    <div class="flex flex-col items-center space-y-4">
+      
+      <div class="flex space-x-6 text-xl">
+       <img src="./Assets/images/social-icons-footer.png" alt="">
+      </div>
+      
+      <!-- Copyright -->
+      <p class="text-sm md:text-lg font-medium text-white  tracking-wider py-3">
+        S.T. TECH &copy; 2020. All Rights Reserved
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+    
+</body>
+</html>

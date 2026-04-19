@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--tailwind css-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Home</title>
+    
+
+</head>
+<body>
+    <!--top bar-->
+    <div class=" text-center bg-[#1796A5] py-2  max-w-7xl mx-auto text-white">
+        <h5 >SUMMER SALE IS BACK! GET UPTO 40% DISCOUNT ON HEADPHONES</h5>
+    </div>
+   <!-- Navbar -->
+    <nav class="relative flex items-center max-w-7xl justify-between mx-auto px-6 py-4 bg-white ">
+  
+            <!-- Hidden Checkbox for Toggle -->
+            <input type="checkbox" id="menu-toggle" class="peer hidden">
+
+            <!-- Hamburger Icon (Label for the checkbox) -->
+            <label for="menu-toggle" class="md:hidden cursor-pointer text-2xl z-50 select-none">
+                <span class="peer-checked:hidden inline">☰</span>
+                <span class="hidden peer-checked:inline">✕</span>
+            </label>
+
+            <!-- Logo -->
+            <div class="flex-shrink-0 md:pl-20">
+                <a href="./index.html"><img src="./Assets/images/logo.png" alt="Logo" ></a>
+            </div>
+
+            <!-- Menu: Controlled by the checkbox state via the 'peer-checked' class -->
+            <ul class="hidden peer-checked:flex absolute top-full left-0 w-full bg-white flex-col items-center gap-5  py-5 border-b shadow-lg md:shadow-none md:border-none md:static md:w-auto md:flex  md:flex-row md:gap-8 text-gray-800 font-medium text-xl z-40">
+                <li class="cursor-pointer underline underline-offset-8  hover:decoration-[#1796A5] transition-all"><a href="./categories.html">CATEGORIES</a></li>
+                <li class="cursor-pointer hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-[#1796A5] transition-all"><a href="./about.html">ABOUT US</a></li>
+            </ul>
+
+            <!-- Right Section -->
+            <div class="flex items-center gap-4 pr-5">
+                <div class="hidden lg:flex items-center border-3 border-[#1796A5] rounded-full px-4 py-1">
+                <input type="text" placeholder="Search" class="outline-none text-sm text-black w-40 placeholder-black text-xl">
+                </div>
+                <div class="flex gap-4 text-2xl items-center">
+                    <a href="./cart.html"><img src="./Assets/images/cart-home.png" alt=""></a>
+                    <a href="./login.html"><img src="./Assets/images/user-home.png" alt=""></a>
+                
+                </div>
+            </div>
+    </nav>
+
+
+  <div class="max-w-4xl mx-auto bg-white p-8 font-sans text-gray-900">
+  <!-- Introductory Paragraph -->
+  <p class="mb-4 text-xl leading-relaxed">
+    <span class="font-bold">SR TECH</span> works to ensure that your privacy is protected when using our website. We have a policy setting out how your personal data will be processed and protected. Applicable law and our practices change over time. If we decide to update our Policy, we will post the changes on this site. You should check this page from time to time to ensure that you are happy with any changes.
+  </p>
+
+  <!-- Personal Data Section -->
+  <section>
+    <h2 class="text-2xl font-medium mb-3">Your Personal Data</h2>
+    <p class="mb-4 text-xl leading-relaxed">
+      In providing your personal data, you consent to us using the data collected in order to meet our commitments to you and to provide you with the service you expect. We need your data for the following purposes:
+    </p>
+    
+    <!-- Purposes List -->
+    <ul class="list-disc ml-6 space-y-3">
+      <li class="mb-4 text-xl leading-relaxed">
+        To create your personal account at Sonee Sports (i.e. your name and email address).
+      </li>
+      <li class="mb-4 text-xl leading-relaxed">
+        To validate that you are of legal age for shopping online (i.e. date of birth).
+      </li>
+      <li class="mb-4 text-xl leading-relaxed">
+        To process your orders through our website (i.e. your name, postal address, and mode of payment).
+      </li>
+       <li class="mb-4 text-xl leading-relaxed">
+         To send you marketing offers such as newsletters and latest sports Sonee affiliated events 
+       (i.e. your name and email address).
+        </li>
+            
+        <li class="mb-4 text-xl leading-relaxed">
+         To update and contact you in the event of any problems with the delivery of your items 
+        (i.e. contact number, address).
+        </li>
+            
+            <li class="mb-4 text-xl leading-relaxed">
+                To answer your queries and to inform you of important updates 
+            (i.e. your email address).
+            </li>
+            
+            <li class="mb-4 text-xl leading-relaxed">
+                To notify the winners in competitions arranged online if in case you joined 
+             (i.e. your email address, name, home address and telephone number).
+            </li>
+            
+            <li class="mb-4 text-xl leading-relaxed">
+                To analyze your personal data to provide you with relevant marketing offers and information 
+              (i.e. name, buying habits).
+            </li>
+    </ul>
+  </section>
+     
+        
+        <!-- Data Retention Section -->
+        <section class="mb-3">
+            <p class="mb-4  text-xl leading-relaxed">
+                We will only keep your data for as long as necessary to carry out our services to you and for as long as we are required by the Maldivian laws. After this, your personal data will be deleted. We cannot remove your data when there is a legal storage requirement, such as for taxation purposes or anything legally important held by the Maldivian Laws.
+            </p>
+            
+        </section>
+
+        <hr class="border-gray-100 " />
+
+        <!-- App Policy Section -->
+        <section>
+            <p class="mb-4  text-xl leading-relaxed">
+                At Sonee Sports Mobile App, we are committed to safeguarding the privacy of our users. This Privacy Policy outlines how we collect, use, disclose, and protect your personal information, particularly concerning user profile image uploads. By using our services and uploading your profile image, you agree to the terms outlined in this policy.
+            </p>
+            
+            <p class="mb-4 text-xl leading-relaxed">
+                Information We Collect, When you upload a profile image on Sonee Sports, we may collect the following information. We will only keep your data for as long as necessary to carry out our services to you and for as long as we are required by the laws.
+            </p>
+        </section>
+
+    
+</div>
+
+
+
+     <!--Footer Section-->
+<footer class="bg-black text-white py-12 px-6 max-w-7xl mx-auto">
+  <div class="max-w-6xl mx-auto">
+    <!-- Top Section: 3 Columns -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10 border-b-2 border-white pb-10">
+      
+      <!-- Column 1: Discover -->
+        <div class="text-center md:text-left">
+        <h3 class="text-sm  md:text-lg font-bold tracking-widest uppercase mb-4">Discover</h3>
+        <ul class="space-y-2 text-white text-sm md:text-xl">
+          <li><a href="./delivery.html" >Delivery Terms</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+          <li><a href="./placeorder.html" >How to Place Order</a></li>
+          <li><a href="./privacypolicy.html" >Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 2: Continue Shopping -->
+      <div class="text-center md:text-left">
+        <h3 class="text-sm md:text-lg font-bold tracking-widest uppercase mb-4">Continue Shopping</h3>
+        <ul class="space-y-2 text-white text-sm md:text-xl">
+          <li><a href="#" class="hover:text-white">Small Gadgets</a></li>
+          <li><a href="#" class="hover:text-white">Gaming</a></li>
+          <li><a href="#" class="hover:text-white">Smart Watch</a></li>
+          <li><a href="#" class="hover:text-white">Headphones</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Contact Info -->
+      <div class="text-center md:text-left">
+        <h3 class="text-sm md:text-lg font-bold tracking-widest uppercase mb-4">S.T. TECH</h3>
+        <div class=" text-white text-sm md:text-xl space-y-3">
+          <p>No.5, South Fairlands,<br> Yercaud Main Road, Salem,<br> Tamilnadu</p>
+          <p class="font-medium">+91 90000 90101</p>
+          <p class="font-medium">+91 92102 54879</p>
+          <p>info@srtech.com</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Section: Socials & Copyright -->
+    <div class="flex flex-col items-center space-y-4">
+      
+      <div class="flex space-x-6 text-xl">
+       <img src="./Assets/images/social-icons-footer.png" alt="">
+      </div>
+      
+      <!-- Copyright -->
+      <p class="text-sm md:text-lg font-medium text-white  tracking-wider py-3">
+        S.T. TECH &copy; 2020. All Rights Reserved
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+    
+</body>
+</html>

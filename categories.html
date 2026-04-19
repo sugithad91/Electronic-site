@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    
+    <!--tailwind css-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Home</title>
+    
+
+</head>
+<body>
+    <!--top bar-->
+    <div class=" text-center bg-[#1796A5] py-2  max-w-7xl mx-auto text-white">
+        <h5>SUMMER SALE IS BACK! GET UPTO 40% DISCOUNT ON HEADPHONES</h5>
+    </div>
+   <!-- Navbar -->
+    <nav class="relative flex items-center max-w-7xl justify-between mx-auto px-6 py-4 bg-white shadow-sm">
+  
+            <!-- Hidden Checkbox for Toggle -->
+            <input type="checkbox" id="menu-toggle" class="peer hidden">
+
+            <!-- Hamburger Icon (Label for the checkbox) -->
+            <label for="menu-toggle" class="md:hidden cursor-pointer text-2xl z-50 select-none">
+                <span class="peer-checked:hidden inline">☰</span>
+                <span class="hidden peer-checked:inline">✕</span>
+            </label>
+
+            <!-- Logo -->
+            <div class="flex-shrink-0 md:pl-20">
+                <a href="./index.html"><img src="./Assets/images/logo.png" alt="Logo" ></a>
+            </div>
+
+            <!-- Menu: Controlled by the checkbox state via the 'peer-checked' class -->
+            <ul class="hidden peer-checked:flex absolute top-full left-0 w-full bg-white flex-col items-center gap-5  py-5 border-b shadow-lg md:shadow-none md:border-none md:static md:w-auto md:flex  md:flex-row md:gap-8 text-gray-800 font-medium text-xl z-40">
+                <li class="cursor-pointer hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-[#1796A5] transition-all"><a href="./categories.html">CATEGORIES</a></li>
+                <li class="cursor-pointer hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-[#1796A5] transition-all"><a href="./about.html">ABOUT US</a></li>
+            </ul>
+
+            <!-- Right Section -->
+            <div class="flex items-center gap-4 pr-5">
+                <div class="hidden lg:flex items-center border-3 border-[#1796A5] rounded-full px-4 py-1">
+                <input type="text" placeholder="Search" class="outline-none text-sm text-black w-40 placeholder-black text-xl">
+                </div>
+                <div class="flex gap-4 text-2xl items-center">
+                    <a href="./cart.html"><img src="./Assets/images/cart-home.png" alt=""></a>
+                    <a href="./login.html"><img src="./Assets/images/user-home.png" alt=""></a>
+                
+                </div>
+            </div>
+    </nav>
+
+    <!--Categoies-->
+    <!--Shop by catogery-->
+<section class="max-w-7xl mx-auto  py-12 ">
+  <!-- Title -->
+  <h2 class="text-2xl mb-15 md:text-3xl font-medium text-gray-900">Gadgets <span class="ml-1 text-3xl">›</span></h2>
+
+  <!-- Category Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4">
+    
+    <!-- Category Card (Repeat for each item) -->
+    <a href="./headphone.html"><div class="flex flex-col mb-10 items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/headphone-cate.png" alt="Apple Ipad" class="w-full h-full object-cover">
+      </div>
+      <h3 class=" text-xl mt-3 font-medium md:text-2xl ">Headphones</h3>
+    </div></a>
+
+    <!-- smart watch -->
+    <a href="./smartwatches.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/shop-home-3.png" alt="Earbuds" class="w-full h-full object-cover">
+      </div>
+      <h3 class="text-xl mt-3 font-medium md:text-2xl">Smart Watches</h3>
+    </div></a>
+
+    <!-- Ear buds -->
+    <a href="./earbuds.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/shop-home-2.png" alt="Smart Watch" class="w-full h-full object-cover">
+      </div>
+      <h3 class="text-xl mt-3 font-medium md:text-2xl">Earbuds</h3>
+    </div></a>
+
+    <!-- tablets -->
+    <a href="./tablet.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/tablets-cate.png" alt="Speaker" class="w-full h-full object-cover">
+      </div>
+      <h3 class="text-xl mt-3 font-medium md:text-2xl">Tablet</h3>
+    </div></a>
+
+    <!-- ipads-->
+    <a href="./ipads.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/apple-ipad-cate.png" alt="Gaming" class="w-full h-full object-cover">
+      </div>
+      <h3 class="text-xl mt-3 font-medium md:text-2xl">Apple Ipad</h3>
+    </div></a>
+
+    <!-- speakers -->
+    <a href="./speakers.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/speaker-cate.png" alt="Headphones" class="w-full h-full object-cover">
+      </div>
+      <h3 class="mt-3 font-medium text-3xl">Speakers</h3>
+    </div></a>
+
+    <!-- robot -->
+    <a href="./robot.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/robots-cate.png" alt="Mouse" class="w-full h-full object-cover">
+      </div>
+      <h3 class="text-xl mt-3 font-medium md:text-2xl">Robots</h3>
+    </div></a>
+
+    <!-- acc -->
+    <a href="./Accessories.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/access-cate.png" alt="Mouse" class="w-full h-full object-cover">
+      </div>
+      <h3 class="text-xl mt-3 font-medium md:text-2xl">Accessories</h3>
+    </div></a>
+
+    <!-- Power bank -->
+    <a href="./powerbank.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/power-bank-cate.png" alt="Mouse" class="w-full h-full object-cover">
+      </div>
+      <h3 class="text-xl mt-3 font-medium md:text-2xl">Power Bank</h3>
+    </div></a>
+
+  </div>
+</section>
+<!--Brands-->
+
+<section class="max-w-7xl mx-auto  py-12 ">
+  <!-- Title -->
+  <h2 class="text-2xl mb-15 md:text-3xl font-medium text-gray-900">Popular Brands <span class="ml-1 text-3xl">›</span></h2>
+
+  <!-- Category Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4">
+    
+    <!-- Category Card (Repeat for each item) -->
+    <a href="./headphone.html"><div class="flex flex-col mb-10 items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/anker.png" alt="Apple Ipad" class="w-full h-full object-cover">
+      </div>
+      <h3 class=" text-xl mt-3 font-medium md:text-2xl ">Anker</h3>
+    </div></a>
+
+    <!-- smart watch -->
+    <a href="./smartwatches.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/apple-cate-1.png" alt="Earbuds" class="w-full h-full object-cover">
+      </div>
+      <h3 class="text-xl mt-3 font-medium md:text-2xl">Apple</h3>
+    </div></a>
+
+    <!-- Ear buds -->
+    <a href="./earbuds.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/xiaomi.png" alt="Smart Watch" class="w-full h-full object-cover">
+      </div>
+      <h3 class="text-xl mt-3 font-medium md:text-2xl">Xiaomi</h3>
+    </div></a>
+
+    <!-- tablets -->
+    <a href="./tablet.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/samsung.png" alt="Speaker" class="w-full h-full object-cover">
+      </div>
+      <h3 class="text-xl mt-3 font-medium md:text-2xl">Samsung</h3>
+    </div></a>
+
+    <!-- ipads-->
+    <a href="./ipads.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/jbl.png" alt="Gaming" class="w-full h-full object-cover">
+      </div>
+      <h3 class="text-xl mt-3 font-medium md:text-2xl">JBL</h3>
+    </div></a>
+
+    <!-- speakers -->
+    <a href="./speakers.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/one-plus.png" alt="Headphones" class="w-full h-full object-cover">
+      </div>
+      <h3 class="mt-3 font-medium text-3xl">One Plus</h3>
+    </div></a>
+
+    <!-- robot -->
+    <a href="./robot.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/sony.png" alt="Mouse" class="w-full h-full object-cover">
+      </div>
+      <h3 class="text-xl mt-3 font-medium md:text-2xl">Sony</h3>
+    </div></a>
+
+    <!-- acc -->
+    <a href="./Accessories.html"> <div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/others" alt="Mouse" class="w-full h-full object-cover">
+      </div>
+      <h3 class="text-xl mt-3 font-medium md:text-2xl">Others</h3>
+    </div></a>
+
+   
+  </div>
+</section>
+<!--Recommande-->
+<section class="max-w-7xl mx-auto  py-12 ">
+  <!-- Title -->
+  <h2 class="text-2xl mb-15 md:text-3xl font-medium text-gray-900">Recommended <span class="ml-1 text-3xl">›</span></h2>
+
+  <!-- Category Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4">
+    
+  
+    <a href="./headphone.html"><div class="flex flex-col mb-10 items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/New-arrival.png" alt="Apple Ipad" class="w-full h-full object-cover">
+      </div>
+      <h3 class=" text-xl mt-3 font-medium md:text-2xl ">New Arrival</h3>
+    </div></a>
+
+    
+    <a href="./smartwatches.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/best-seller.png" alt="Earbuds" class="w-full h-full object-cover">
+      </div>
+      <h3 class="text-xl mt-3 font-medium md:text-2xl">Best Seller</h3>
+    </div></a>
+
+    
+    <a href="./earbuds.html"><div class="flex flex-col items-center group cursor-pointer">
+      <div class="w-50 aspect-square overflow-hidden bg-white rounded-sm shadow-sm transition-transform group-hover:scale-105">
+        <img src="./Assets/images/super-sale.png" alt="Smart Watch" class="w-full h-full object-cover">
+      </div>
+      <h3 class="text-xl mt-3 font-medium md:text-2xl">Super Sale</h3>
+    </div></a>
+
+ 
+
+   
+
+   
+  </div>
+</section>
+
+
+
+    <!--Footer Section-->
+<footer class="bg-black text-white py-12 px-6 max-w-7xl mx-auto">
+  <div class="max-w-6xl mx-auto">
+    <!-- Top Section: 3 Columns -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10 border-b-2 border-white pb-10">
+      
+      <!-- Column 1: Discover -->
+         <div class="text-center md:text-left">
+        <h3 class="text-sm  md:text-lg font-bold tracking-widest uppercase mb-4">Discover</h3>
+        <ul class="space-y-2 text-white text-sm md:text-xl">
+          <li><a href="./delivery.html" >Delivery Terms</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+          <li><a href="./placeorder.html" >How to Place Order</a></li>
+          <li><a href="./privacypolicy.html" >Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 2: Continue Shopping -->
+      <div class="text-center md:text-left">
+        <h3 class="text-sm md:text-lg font-bold tracking-widest uppercase mb-4">Continue Shopping</h3>
+        <ul class="space-y-2 text-white text-sm md:text-xl">
+          <li><a href="#" class="hover:text-white">Small Gadgets</a></li>
+          <li><a href="#" class="hover:text-white">Gaming</a></li>
+          <li><a href="#" class="hover:text-white">Smart Watch</a></li>
+          <li><a href="#" class="hover:text-white">Headphones</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Contact Info -->
+      <div class="text-center md:text-left">
+        <h3 class="text-sm md:text-lg font-bold tracking-widest uppercase mb-4">S.T. TECH</h3>
+        <div class=" text-white text-sm md:text-xl space-y-3">
+          <p>No.5, South Fairlands,<br> Yercaud Main Road, Salem,<br> Tamilnadu</p>
+          <p class="font-medium">+91 90000 90101</p>
+          <p class="font-medium">+91 92102 54879</p>
+          <p>info@srtech.com</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Section: Socials & Copyright -->
+    <div class="flex flex-col items-center space-y-4">
+      
+      <div class="flex space-x-6 text-xl">
+       <img src="./Assets/images/social-icons-footer.png" alt="">
+      </div>
+      
+      <!-- Copyright -->
+      <p class="text-sm md:text-lg font-medium text-white  tracking-wider py-3">
+        S.T. TECH &copy; 2020. All Rights Reserved
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+    
+</body>
+</html>
